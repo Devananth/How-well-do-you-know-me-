@@ -46,6 +46,8 @@ for (var i = 0; i < questions.length; i++) {
 
 }
 
-console.log("Thanks , for spending ur valuable time by playing the game!<");
+console.log(chalk.bgYellow(name + " your current score is : " + score) );
+
+console.log("\nThanks , for spending ur valuable time by playing the game!<");
 
 
